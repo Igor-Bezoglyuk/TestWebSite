@@ -1,1 +1,92 @@
+body{
+ margin: 0px;
+}
 
+header{
+ position: relative;
+ width: 100%;
+ height: auto;
+ background: ghostwhite;
+ padding:20px;
+}
+ .Menu{
+   position:relative;
+   width: max-content;
+   height: auto;
+   list-style: none;
+   padding: 0px;  
+ }
+ .MenuLi{
+   position:relative;
+   top: 0;
+   right: 0%;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 400;
+   display: inline-block;
+   margin: 10px;
+ #DropMenu{
+  position:absolute;
+  top: 0;
+  right: 0%;
+  width: auto;
+  height: auto;
+  background:darkgreen;
+  visibility: hidden;
+ }
+ }
+
+a {
+   position:relative;
+   text-decoration: none;
+   color: grey;
+   transition: 0.4s;
+&:hover{
+   color: dimgrey;
+ }
+ }
+
+%mazerblock{ //шаблон для материских блоков (основных блоков контента)
+ position:relative;
+ top: 0;
+ right: 0%;
+ width: 100%;
+ height: auto;
+}
+ //_____________________________________________________________________________________________________
+
+#Kontent{
+  position:relative;
+  width: 100%;
+  height: auto;
+  background:ghostwhite;
+}
+.Kontent-blocks-img{
+  position:relative;
+  width: 100%;
+}
+
+ //_____________________________________________________________________________________________________
+#Kontent2{
+@extend %mazerblock;
+background:lightgrey;
+}
+.Kontent2-blocks-img{
+ position:relative;
+ width: 100%;
+}
+ //_____________________________________________________________________________________________________
+#Kontent3{
+position:relative;
+width: 100%;
+height:auto;
+background: url("../img/Group 27.png") no-repeat 50% 50%/cover;
+}
+.Kontent3-blocks-img{
+position: relative;
+width: 100%;
+transition: 0.4s;
+}
+.img-1:hover{
+  transform: ;
+}
